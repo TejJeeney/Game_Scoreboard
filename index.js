@@ -43,7 +43,8 @@ function away_threeptr() {
 }
 let win = ""
 function winner() {
-    if (awaypts > homepts) win = console.log("GUEST TEAM is the winner")
+    if (awaypts > homepts) win = console.log("AWAY TEAM is the winner")
+    else if (awaypts === homepts) win = console.log("It's a tie")
     else win = console.log("HOME TEAM is the winner")
 }
 
